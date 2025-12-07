@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.10+, Node.js v20.x LTS, Typescript + Docusaurus v3.x, React v18.x, ROS 2 (Humble/Iron), Gazebo (Fortress/Ignition), NVIDIA Isaac Sim, Whisper, LLM for cognitive planning. (001-book-layout)
+- N/A (Content is stored in Markdown/MDX files within the Git repository). (001-book-layout)
+
+## Recent Changes
+- 001-book-layout: Added Python 3.10+, Node.js v20.x LTS, Typescript + Docusaurus v3.x, React v18.x, ROS 2 (Humble/Iron), Gazebo (Fortress/Ignition), NVIDIA Isaac Sim, Whisper, LLM for cognitive planning.

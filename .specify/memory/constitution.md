@@ -639,3 +639,7 @@ This Constitution is the primary reference for all project standards. In case of
 **CI/CD:** Continuous Integration/Continuous Deployment, automated software development practices.
 
 **Docusaurus:** A modern static site generator optimized for documentation websites.
+
+---
+
+**Version**: 1.1.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
