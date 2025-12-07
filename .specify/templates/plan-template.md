@@ -29,9 +29,13 @@
 
 ## Constitution Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+*GATE: Must pass before research and design phases.*
 
-[Gates determined based on constitution file]
+- **[ ] Accuracy:** Is there a plan to verify all technical claims and data? Are all sources cited in APA format?
+- **[ ] Clarity:** Does the plan prioritize clear explanations for the target audience (undergraduate/graduate students)?
+- **[ ] Reproducibility:** Does the plan ensure that all code, experiments, and diagrams are reproducible?
+- **[ ] SDD:** Does the plan adhere to the Spec-Driven Development process?
+- **[ ] Docusaurus:** Is the output planned to be Docusaurus-ready markdown?
 
 ## Project Structure
 

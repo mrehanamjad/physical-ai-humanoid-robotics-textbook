@@ -3,6 +3,14 @@
 description: "Task list template for feature implementation"
 ---
 
+<!--
+**Constitution Reminder:** When creating tasks, ensure they align with the project constitution:
+- **Accuracy:** Include tasks for source verification and citation.
+- **Clarity:** Tasks should result in clear, educational content.
+- **Reproducibility:** Add tasks to ensure code and experiments are reproducible.
+- **Docusaurus:** All content-related tasks must produce Docusaurus-ready markdown.
+-->
+
 # Tasks: [FEATURE NAME]
 
 **Input**: Design documents from `/specs/[###-feature-name]/`

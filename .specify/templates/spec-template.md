@@ -1,5 +1,12 @@
 # Feature Specification: [FEATURE NAME]
 
+<!--
+**Constitution Reminder:** When filling out this specification, ensure all requirements and success criteria align with the project constitution, particularly regarding:
+- **Accuracy:** Plan for source verification and proper citation.
+- **Clarity:** Define requirements that lead to clear, educational content.
+- **Reproducibility:** Specify requirements for reproducible code and experiments.
+-->
+
 **Feature Branch**: `[###-feature-name]`  
 **Created**: [DATE]  
 **Status**: Draft  

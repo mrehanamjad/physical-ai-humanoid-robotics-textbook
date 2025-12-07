@@ -1,55 +1,71 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+Version change: 0.0.0 → 1.0.0
+Modified principles:
+- [PRINCIPLE_1_NAME] → I. Accurate and Verifiable Content
+- [PRINCIPLE_2_NAME] → II. Clarity and Educational Value
+- [PRINCIPLE_3_NAME] → III. Reproducibility
+- [PRINCIPLE_4_NAME] → IV. Spec-Driven Development
+- [PRINCIPLE_5_NAME] → (Removed)
+- [PRINCIPLE_6_NAME] → (Removed)
+Added sections:
+- Key Standards
+- Constraints
+- Success Criteria
+Removed sections:
+- [SECTION_2_NAME]
+- [SECTION_3_NAME]
+Templates requiring updates:
+- ✅ .specify/templates/plan-template.md
+- ✅ .specify/templates/spec-template.md
+- ✅ .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+# Textbook on Physical AI & Humanoid Robotics Constitution
+<!-- This constitution outlines the guiding principles and standards for the project. -->
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accurate and Verifiable Content
+All technical content, including explanations, diagrams, and code, MUST be accurate and verifiable. Sources MUST be cited using APA format, with at least 50% of sources being from peer-reviewed academic publications. Plagiarism is strictly prohibited.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity and Educational Value
+Explanations MUST be clear and targeted towards undergraduate and graduate students in robotics. Each chapter or significant section MUST include explicit learning objectives, illustrative examples, and exercises to reinforce concepts.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducibility
+All code, experiments, and diagrams MUST be fully reproducible. Code MUST be well-documented and self-contained. Diagrams and experimental results MUST be generatable from the provided code and data. Content MUST be authored in Docusaurus-ready Markdown.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Spec-Driven Development
+The project MUST follow a Spec-Driven Development (SDD) workflow, utilizing the Spec-Kit Plus framework. All development, from new chapters to code examples, MUST begin with a specification that is reviewed and approved before implementation.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+This section outlines specific, non-negotiable standards for all project contributions.
 
+- **Citations:** APA 7th Edition is the mandatory citation style.
+- **Source Quality:** A minimum of 50% of all cited sources MUST be from peer-reviewed journals, conferences, or equivalent scholarly publications.
+- **Plagiarism:** A zero-tolerance policy for plagiarism is in effect. All contributions will be checked.
+- **Markdown Flavor:** All content MUST be compatible with Docusaurus.
 
-[PRINCIPLE__DESCRIPTION]
+## Constraints
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+- **Word Count:** The total manuscript is expected to be between 20,000 and 25,000 words.
+- **Source Count:** A minimum of 50 credible, distinct sources must be cited throughout the work.
+- **Deployment:** The final output MUST be deployable as a static site to GitHub Pages.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Success Criteria
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+The project is considered successful when the following criteria are met:
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- **Verification:** All chapters are verified for technical accuracy, and all code/experiments are reproducible.
+- **Structure:** The content is well-structured, easy to navigate, and adheres to the specified standards.
+- **Functionality:** The Docusaurus site is fully functional and successfully deployed.
+- **Clarity:** The material is judged to be of high clarity and educational value for the target audience.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution is the authoritative guide for the project. All contributions, reviews, and decisions MUST align with its principles. Amendments to this constitution require a formal proposal, review, and an update to the version number and amendment date.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
