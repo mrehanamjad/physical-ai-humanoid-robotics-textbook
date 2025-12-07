@@ -1,10 +1,11 @@
 # Feature Specification: [FEATURE NAME]
 
 <!--
-**Constitution Reminder:** When filling out this specification, ensure all requirements and success criteria align with the project constitution, particularly regarding:
-- **Accuracy:** Plan for source verification and proper citation.
-- **Clarity:** Define requirements that lead to clear, educational content.
-- **Reproducibility:** Specify requirements for reproducible code and experiments.
+**Constitution Reminder:** This specification MUST align with the project constitution. Key sections to consider:
+- **I: Core Principles:** Ensure user stories and requirements reflect the principles of progressive learning, practical application, accuracy, visual learning, clarity, and ethical responsibility.
+- **II: Key Standards:** All functional requirements must adhere to the standards for content format, code examples, structure, accessibility, and workflow.
+- **III: Constraints:** The scope of this spec must fall within the project's defined constraints.
+- **IV: Success Criteria:** The success criteria defined below must contribute to the project's overall learning outcomes and quality metrics.
 -->
 
 **Feature Branch**: `[###-feature-name]`  
@@ -42,34 +43,6 @@
 
 ---
 
-### User Story 2 - [Brief Title] (Priority: P2)
-
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
-### User Story 3 - [Brief Title] (Priority: P3)
-
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
 [Add more user stories as needed, each with an assigned priority]
 
 ### Edge Cases
@@ -85,7 +58,7 @@
 ## Requirements *(mandatory)*
 
 <!--
-  ACTION REQUIRED: The content in this section represents placeholders.
+  ACTION REQUIRED: The content in thissection represents placeholders.
   Fill them out with the right functional requirements.
 -->
 
@@ -94,13 +67,6 @@
 - **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
 - **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
 - **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
-
-*Example of marking unclear requirements:*
-
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
 ### Key Entities *(include if feature involves data)*
 
@@ -117,6 +83,13 @@
 ### Measurable Outcomes
 
 - **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-002**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
+
+## Constitution Compliance
+
+*This section explicitly verifies that the spec adheres to the constitution.*
+
+- **[ ] Principle Alignment:** All user stories and requirements are aligned with the Core Principles (Const. I).
+- **[ ] Standards Compliance:** The proposed feature will be implemented in accordance with all Key Standards (Const. II).
+- **[ ] Constraint Adherence:** The feature is within the defined project constraints (Const. III).
+- **[ ] Success Criteria Contribution:** The feature's success criteria support the project's overall Success Criteria (Const. IV).

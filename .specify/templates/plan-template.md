@@ -29,13 +29,29 @@
 
 ## Constitution Check
 
-*GATE: Must pass before research and design phases.*
+*GATE: This plan MUST be fully compliant with the project constitution. All checks must pass.*
 
-- **[ ] Accuracy:** Is there a plan to verify all technical claims and data? Are all sources cited in APA format?
-- **[ ] Clarity:** Does the plan prioritize clear explanations for the target audience (undergraduate/graduate students)?
-- **[ ] Reproducibility:** Does the plan ensure that all code, experiments, and diagrams are reproducible?
-- **[ ] SDD:** Does the plan adhere to the Spec-Driven Development process?
-- **[ ] Docusaurus:** Is the output planned to be Docusaurus-ready markdown?
+### I: Core Principles
+- **[ ] 1. Clear, Progressive Learning:** Does the plan outline a logical learning path? (See Const. I.1)
+- **[ ] 2. Hands-On, Practical Approach:** Does the plan include concrete examples and exercises? (See Const. I.2)
+- **[ ] 3. Technical Accuracy:** Is there a process for verifying technical accuracy and citing sources? (See Const. I.3)
+- **[ ] 4. Visual Learning:** Does the plan incorporate diagrams and visual aids? (See Const. I.4)
+- **[ ] 5. Educational Clarity:** Is the content plan focused on accessibility and clarity for the target audience? (See Const. I.5)
+- **[ ] 6. Ethical Responsibility:** Are safety and ethical considerations addressed in the plan? (See Const. I.6)
+
+### II: Key Standards
+- **[ ] 1. Content Format:** Does the plan specify Docusaurus-compatible Markdown/MDX? (See Const. II.1)
+- **[ ] 2. Code Examples:** Are code quality standards (PEP 8, docstrings, testing) included in the plan? (See Const. II.2)
+- **[ ] 3. Content Structure:** Does the feature plan adhere to the required chapter structure? (See Const. II.3)
+- **[ ] 4. Accessibility and Responsiveness:** Is there a plan to meet WCAG 2.1 AA and responsive design standards? (See Const. II.4)
+- **[ ] 5. Development Workflow:** Does the plan align with the Git workflow, PR process, and CI/CD strategy? (See Const. II.5)
+- **[ ] 6. Visual Design:** Are visual design standards for diagrams and typography considered? (See Const. II.6)
+
+### III: Constraints & IV: Success Criteria
+- **[ ] Scope:** Does the plan respect the defined content scope? (See Const. III.1)
+- **[ ] Prerequisites:** Are the target audience's prerequisites properly considered? (See Const. III.3)
+- **[ ] Learning Outcomes:** Does the plan contribute to the defined learning outcomes? (See Const. IV.1)
+- **[ ] Technical Deliverables:** Does the plan align with the required technical deliverables? (See Const. IV.2)
 
 ## Project Structure
 
