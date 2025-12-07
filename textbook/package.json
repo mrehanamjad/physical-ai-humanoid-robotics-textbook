@@ -2,6 +2,7 @@
   "name": "textbook",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://mrehanamjad.github.io/physical-ai-humanoid-robotics-textbook/",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -19,6 +20,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "gh-pages": "^6.3.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
