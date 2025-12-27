@@ -208,8 +208,3 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
-
-## Recent Changes
-- 010-chapter1-physical-ai: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
-- 010-chapter1-physical-ai: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
-- 010-chapter1-physical-ai: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
