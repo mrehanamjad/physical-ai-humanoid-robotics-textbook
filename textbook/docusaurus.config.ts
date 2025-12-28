@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://GIAIC.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-humanoid-robotics-textbook/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/GIAIC/physical-ai-humanoid-robotics-textbook/tree/main/',
+            'https://github.com/mrehanamjad/physical-ai-humanoid-robotics-textbook/tree/main/',
         },
         blog: false,
         theme: {
@@ -74,7 +74,7 @@ const config: Config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/GIAIC/physical-ai-humanoid-robotics-textbook',
+          href: 'https://github.com/mrehanamjad/physical-ai-humanoid-robotics-textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -114,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/GIAIC/physical-ai-humanoid-robotics-textbook',
+              href: 'https://github.com/mrehanamjad/physical-ai-humanoid-robotics-textbook',
             },
           ],
         },
