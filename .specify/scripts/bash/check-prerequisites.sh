@@ -26,20 +26,34 @@ JSON_MODE=false
 REQUIRE_TASKS=false
 INCLUDE_TASKS=false
 PATHS_ONLY=false
+FEATURE_NAME=""
 
-for arg in "$@"; do
-    case "$arg" in
+while [[ $# -gt 0 ]]; do
+    case "$1" in
         --json)
             JSON_MODE=true
+            shift
             ;;
         --require-tasks)
             REQUIRE_TASKS=true
+            shift
             ;;
         --include-tasks)
             INCLUDE_TASKS=true
+            shift
             ;;
         --paths-only)
             PATHS_ONLY=true
+            shift
+            ;;
+        --feature)
+            if [[ -n "$2" && ! "$2" =~ ^-- ]]; then
+                FEATURE_NAME="$2"
+                shift 2
+            else
+                echo "ERROR: --feature requires a non-empty argument." >&2
+                exit 1
+            fi
             ;;
         --help|-h)
             cat << 'EOF'
@@ -52,6 +66,7 @@ OPTIONS:
   --require-tasks     Require tasks.md to exist (for implementation phase)
   --include-tasks     Include tasks.md in AVAILABLE_DOCS list
   --paths-only        Only output path variables (no prerequisite validation)
+  --feature <name>    Specify the feature name directly
   --help, -h          Show this help message
 
 EXAMPLES:
@@ -63,16 +78,25 @@ EXAMPLES:
   
   # Get feature paths only (no validation)
   ./check-prerequisites.sh --paths-only
+
+  # Specify a feature directly
+  ./check-prerequisites.sh --feature 001-new-feature --json
   
 EOF
             exit 0
             ;;
         *)
-            echo "ERROR: Unknown option '$arg'. Use --help for usage information." >&2
+            echo "ERROR: Unknown option '$1'. Use --help for usage information." >&2
             exit 1
             ;;
     esac
 done
+
+# If feature name is provided, export it to be used by get_current_branch
+if [[ -n "$FEATURE_NAME" ]]; then
+    export SPECIFY_FEATURE="$FEATURE_NAME"
+fi
+
 
 # Source common functions
 SCRIPT_DIR="$(CDPATH="" cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

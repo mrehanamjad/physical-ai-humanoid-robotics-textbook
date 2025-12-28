@@ -1,0 +1,4 @@
+my_hello_world_node:
+  ros__parameters:
+    message: "Hello from YAML parameters!"
+    publish_frequency: 1.0

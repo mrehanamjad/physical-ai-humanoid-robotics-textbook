@@ -1,2 +1,26 @@
+# Gemini
 .gemini/settings.json
 zzz.md
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+.env*
+
+# Docusaurus
+.docusaurus/
+.cache-loader/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
